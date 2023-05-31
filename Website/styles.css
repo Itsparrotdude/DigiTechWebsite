@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: slategray;
+  height: 120px;
+  color: white;
+  text-align: center;
+ 
+}
+
+.header h1 {
+  font-size: 300%;
+  margin: 0;
+  padding: 0px 0;
+}
+
+.topnav {
+  float: right;
+  position: sticky;
+  top: 40px;
+  right: 30px;
+  font-size: 90;
+}
+
+.topnav a {
+  padding: 0px 10px;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 5px;
+
+}
+
+.column img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.column2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.column2 img {
+  width: 100%;
+  height: 52.97% ;
+  object-fit: cover;
+  margin-bottom: 5px;
+  position:absolute; bottom: 0;
+}
+
+.column3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.column3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 5px;
+  margin-right: 10px;
+
+}
+
+.footer {
+  background-color: slategray;
+  height: 120px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h1 {
+  font-size: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
