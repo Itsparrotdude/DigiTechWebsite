@@ -78,10 +78,16 @@ body {
 }
 
 .about {
-  margin-top: 65px;
   font-size: 22px;
   border: 2px solid black;
   border-top: px;
+  padding-bottom: 130px;
+  padding-top: 60px;
+ 
+}
+
+.about h2 {
+  text-decoration: underline;
 }
 
 .column3 {
