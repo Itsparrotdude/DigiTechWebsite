@@ -21,7 +21,7 @@ body {
 
 .topnav {
   float: right;
-  position: sticky;
+  position:absolute;
   top: 40px;
   right: 30px;
   font-size: 90;
