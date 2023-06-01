@@ -60,7 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: baseline;
   margin-top: 5px;
   margin-left: 5px;
   position: relative;
@@ -72,6 +72,13 @@ body {
   object-fit: cover;
   margin-bottom: 5px;
   position:absolute; bottom: 0;
+}
+
+.about {
+  margin-top: 65px;
+  font-size: 22px;
+  border: 2px solid black;
+  border-top: px;
 }
 
 .column3 {
