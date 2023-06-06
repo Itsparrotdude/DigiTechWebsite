@@ -16,10 +16,16 @@ body {
   padding: 0 20px; 
 }
 
+.header img {
+  height: 100%;
+  width: 10%;
+  
+}
+
 .title {
   flex: 1;
   font-size: 190%;
-  margin-left:13%;
+  margin-left: 6%;
 }
 
 .title h1 {
