@@ -13,7 +13,7 @@ body {
   height: 120px;
   color: white;
   text-align: center;
-  padding: 0 20px; 
+  padding: 0 10px; 
 }
 
 .header img {
@@ -30,6 +30,7 @@ body {
 
 .title h1 {
   margin: 0;
+  font-family: 'B612', sans-serif;
 }
 
 .topnav {
@@ -38,6 +39,13 @@ body {
 
 .topnav a {
   padding: 0px 10px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'B612', sans-serif; 
+}
+
+:hover .topnav a {
+  text-decoration: underline;
 }
 
 .container {
@@ -87,13 +95,14 @@ body {
   font-size: 22px;
   border: 2px solid black;
   border-top: px;
-  padding-bottom: 130px;
+  padding-bottom: 127px;
   padding-top: 60px;
  
 }
 
 .about h2 {
   text-decoration: underline;
+  font-family: 'B612', sans-serif;
 }
 
 .column3 {
@@ -129,6 +138,7 @@ body {
   font-size: 100%;
   margin: 0;
   padding: 10px 0;
+  font-family: 'B612', sans-serif; 
 }
 
 h2 {
