@@ -36,6 +36,18 @@ body {
     color: black;
     width: 110%;
   }
+
+  .logo:hover {
+    filter: invert(.3) sepia(2) saturate(2) hue-rotate(70deg);
+    animation-delay: 100ms;
+  }
+  
+  .logo {
+    transition: 0.5s;
+    transition-timing-function: ease;
+    -webkit-transition: 0.5s;
+    -webkit-transition-timing-function: ease;
+  }
   
   .topnav {
     float: right;
